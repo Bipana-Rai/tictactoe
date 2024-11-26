@@ -1,0 +1,48 @@
+body{
+    background-color: aliceblue;
+}
+.h{
+position: relative;
+height: 50px;
+width: 100%;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+h2{
+ margin-top: 0px; 
+ position: absolute;  
+}
+h5{
+    position: absolute;
+    margin-top: 10px;
+    font-size: 28px;
+    
+}
+.forgrid{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,0fr);  
+}
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid;
+    background-color: rgba(255, 255, 255, 0.648);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.winmove{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
